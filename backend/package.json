@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ari",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "postman-request": "^2.88.1-postman.30",
+    "request": "^2.88.2",
+    "validator": "^13.6.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
+}
